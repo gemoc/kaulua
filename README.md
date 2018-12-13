@@ -24,10 +24,10 @@ Models are mainly manipulated through non-textual representations (diagram, tree
 We have three motivating scenarios for this PhD:
  - Distributed modeling environment :
    The languages services are deployed at several sites, including remote manipulation services for the workspace and a browser interface for the user interactions with the modeling workbench.
- - Collaborative environment :
-   Multiple users share and edit models simultaneously
- - Change in the environment :
-   The deployment of the language service is dynamically reconfigured
+ - Collaborative modeling environment :
+   Multiple users share and edit models simultaneously.
+ - Reconfigurable modeling environment :
+   The deployment of language services is dynamically reconfigured to adapt to changing user needs.
 
 Objective
 ---------
