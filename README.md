@@ -13,8 +13,8 @@ This happens for two main reasons.
 First of all, web technologies are now mature and outperform traditionnal desktop technologies in terms of user interactions, especially when it comes to developping graphical interfaces.
 Seconds, users are increasingly demanding online services such as data storage, computing power, ready-to-use applications and want to collaborate in real time with others.
 
-To give some examples of developpement tools following this trend, there are VS Code (an IDE implemented only with web technolgies), Theia (an IDE usable in Web or desktop setting), Eclipse Che (a web IDE coupled with a workspace server), Eclipse Orion (a web IDE), Sourcegraph (an online and smart code reviewer on top of Git repositories), Atom (code editor implemented with web technologies), ...
-In addition to these tools, the IDE community is working to agree on a common protocol (Language Server Protocol) to communicate with a Language Server from an IDE, the idea being to to separate IDEs from their language services (diagnostics, goto, diagnotics) to make them reusable in any IDE.
+To give some examples of developpement tools following this trend, there are VS Code (an IDE implemented only with web technolgies), Theia (an IDE usable in Web or desktop setting), Eclipse Che (a web IDE coupled with a workspace server), Eclipse Orion (a web IDE), Sourcegraph (an online and smart code reviewer on top of Git repositories), Atom (code editor implemented with web technologies), etc... <br>
+In addition to these tools, the IDE community is working to agree on a common protocol, the Language Server Protocol (LSP) to communicate with a Language Server from an IDE, the idea being to to separate IDEs from their language services (diagnostics, goto, diagnotics) to make them reusable in any IDE.
 
 Next to IDEs, modeling workbenches (Domain-Specific IDE specialized in model manipulation) are still desktop applications. But since their users have the same needs, the modeling workbench will have to migrate to web technologies. 
 
@@ -44,11 +44,21 @@ We will focus on tree main axes of exploration:
 Publications
 ------------
 
-Shape-Diverse DSLs : Languages without Borders ( Vision Paper ) [doi](https://dx.doi.org/10.1145/3276604.3276623) [preprint](https://hal.archives-ouvertes.fr/hal-01889155)
+**Shape-Diverse DSLs: Languages without Borders** (SLE’18 best vision paper) <br>
+Fabien Coulon, Thomas Degueule, Tijs van der Storm, Benoit Combemale <br>
+In *Proceedings of the 11th International Conference on Software Language Engineering* (SLE), 2018.
+[doi](https://dx.doi.org/10.1145/3276604.3276623) [preprint](https://hal.archives-ouvertes.fr/hal-01889155)
 
 Involved people
 ---------------
 
 Fabien Coulon - Obeo / Université Rennes 1 / Inria
-Benoit Combemale - Université Toulouse Jean Jaurès
+
 Stéphane Bégaudeau - Obeo
+
+Mélanie Bats - Obeo
+
+Benoit Combemale - Université Toulouse Jean Jaurès
+
+Olivier Barais - Université Rennes 1
+
