@@ -14,7 +14,7 @@ First of all, web technologies are now mature and outperform traditionnal deskto
 Seconds, users are increasingly demanding online services such as data storage, computing power, ready-to-use applications and want to collaborate in real time with others.
 
 To give some examples of developpement tools following this trend, there are VS Code (an IDE implemented only with web technolgies), Eclipse Theia (an IDE usable in Web or desktop setting), Eclipse Che (a web IDE coupled with a workspace server), Eclipse Orion (a web IDE), Sourcegraph (an online and smart code reviewer on top of Git repositories), Atom (code editor implemented with web technologies), etc... <br>
-In addition to these tools, the IDE community is working to agree on a common protocol, the Language Server Protocol (LSP) to communicate with a Language Server from an IDE, the idea being to to separate IDEs from their language services (diagnostics, goto, diagnotics) to make them reusable in any IDE.
+In addition to these tools, the IDE community is working to agree on a common protocol, the Language Server Protocol (LSP) to communicate with a Language Server from an IDE, the idea being to separate IDEs from their language services (goto reference, diagnotics, ...) to make them reusable in any IDE.
 
 Next to IDEs, modeling workbenches (Domain-Specific IDE specialized in model manipulation) are still desktop applications. But since their users have the same needs, the modeling workbench will have to migrate to web technologies. 
 
